@@ -1,0 +1,14 @@
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+*/__pycache__/
+*/*/__pycache__/
+
+# Ignorar a pasta de logs local
+logs/
+
+# Ignorar relatórios gerados
+RELATORIOS/
+
+# Ignorar o ficheiro de configuração da máquina local
+config.json
