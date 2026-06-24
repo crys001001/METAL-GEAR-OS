@@ -1,0 +1,7 @@
+customtkinter==5.2.2
+fpdf==1.7.2
+matplotlib==3.11.0
+mysql-connector-python
+numpy==2.5.0
+opencv-python==4.13.0.92
+Pillow==12.2.0
