@@ -1,7 +1,5 @@
 # Metal Gear OS - Sistema de Inspeção Visual Tática
-
-Olá! Bem-vindo ao repositório do Metal Gear OS. Muito mais do que um simples projeto de faculdade, este sistema é o culminar da minha paixão pela Engenharia de Software e pela robótica, mesclando visão computacional, gestão de dados e uma interface imersiva inspirada em Metal Gear.
-
+Olá! Bem-vindo ao repositório do Metal Gear OS. Este sistema mescla visão computacional, gestão de dados, robotica e uma interface imersiva inspirada em Metal Gear.
 Desenvolvi este software do zero com um objetivo claro em mente: criar uma solução de controle de qualidade que não apenas funcionasse com precisão industrial, mas que também fosse intuitiva, segura e visualmente estimulante para o operador.
 
 ---
@@ -14,9 +12,9 @@ Num ambiente de produção industrial, a precisão e a rapidez são fundamentais
 # Funcionalidades Principais
 * **Visão Computacional em Tempo Real (OpenCV):** O núcleo do sistema. Captura frames de vídeo contínuos, isola as áreas de interesse e processa a deteção de cor e forma numa fração de segundo.
 * **Interface Tática e Responsiva (CustomTkinter):** Abandonei os designs monótonos. A interface foi cuidadosamente esculpida com botões reativos, cores institucionais (com o clássico amarelo e cinzento militar) e painéis modulares, oferecendo uma experiência de utilizador fluida e moderna.
-* **Registo Histórico Imutável (MySQL):** Cada peça que cruza a lente da câmara é catalogada numa base de dados relacional (MySQL). O sistema regista a hora exata, as características detetadas e a decisão (Aprovado/Rejeitado).
+* **Registo Histórico Imutável (MySQL):** Cada peça que cruza a lente da câmera é catalogada numa base de dados relacional (MySQL). O sistema regista a hora exata, as características detetadas e a decisão (Aprovado/Rejeitado).
 * **Módulo de Relatórios e Exportação:** A informação só tem valor se for acessível. O software permite filtrar o histórico por datas específicas e exportar relatórios completos e profissionais diretamente para PDF ou planilhas CSV.
-* **Sistema de Autenticação Multinível:** A segurança é prioritária. O sistema restringe o acesso através de uma tela de login com permissões distintas para Administradores (controlo total e alteração de regras) e Operadores (apenas supervisão).
+* **Sistema de Autenticação Multinível:** A segurança é prioritária. O sistema restringe o acesso através de uma tela de login com permissões distintas para Administradores (controle total e alteração de regras) e Operadores (apenas supervisão).
 * **"Caixa Preta" de Logs:** Como manda a boa engenharia, o sistema inclui um módulo de rastreio que regista meticulosamente eventos, erros e inícios de sessão num ficheiro local, crucial para auditorias e debugging.
 
 ---
@@ -34,7 +32,7 @@ Num ambiente de produção industrial, a precisão e a rapidez são fundamentais
 
 # Interface em Ação
 
-**O portal seguro para o sistema:**
+**Inicio do Programa:**
 ![Tela de Login](METAL_GEAR/ASSETS/LOGIN.png)
 
 **O feed da câmara em tempo real e a análise das peças:**
