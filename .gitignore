@@ -1,14 +1,46 @@
-# Ignorar caches do Python
+# Python
 __pycache__/
-*.pyc
-*/__pycache__/
-*/*/__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignorar a pasta de logs local
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs gerados pelo programa
 logs/
+METAL_GEAR/logs/
+*.log
 
-# Ignorar relatórios gerados
-RELATORIOS/
+# Relatórios gerados
+METAL_GEAR/RELATORIOS/*.pdf
+METAL_GEAR/RELATORIOS/*.csv
 
-# Ignorar o ficheiro de configuração da máquina local
+# Configurações locais da máquina
 config.json
+METAL_GEAR/config.json
+
+# Variáveis e credenciais
+.env
+.env.*
+!.env.example
+
+# Build do executável
+build/
+dist/
+*.spec
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.old
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+

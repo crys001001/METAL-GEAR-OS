@@ -41,7 +41,7 @@ class JanelaSobre:
         ctk.CTkLabel(self.janela, text="METAL GEAR OS", font=("Impact", 32), text_color=cor_militar).pack(pady=(10, 0))
         
         # Linha de metadados estilo terminal
-        ctk.CTkLabel(self.janela, text="SISTEMA DE INSPEÇÃO POR VISÃO COMPUTACIONAL [v1.0]", font=("Consolas", 11, "bold"), text_color="#A0A0A0").pack(pady=(0, 15))
+        ctk.CTkLabel(self.janela, text="SISTEMA DE INSPEÇÃO POR VISÃO COMPUTACIONAL [v1.3.4]", font=("Consolas", 11, "bold"), text_color="#A0A0A0").pack(pady=(0, 15))
         
         # Painel do desenvolvedor com borda combinada
         frame_dev = ctk.CTkFrame(self.janela, fg_color="#1E1E1E", corner_radius=8, border_width=2, border_color=cor_militar)
